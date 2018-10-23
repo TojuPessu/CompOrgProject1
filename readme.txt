@@ -13,4 +13,10 @@
 	li $v0, 1
 	syscall
 	
+	li $v0, 11 	#prints out the intergers
+	li $a0, 0
+	addi $a0, $a0, 10 	#creates a new line following the integer
+	syscall
+	
+
 	
