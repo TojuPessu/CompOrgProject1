@@ -17,6 +17,17 @@
 	li $a0, 0
 	addi $a0, $a0, 10 	#creates a new line following the integer
 	syscall
+	addi $a0, $a0, 70 	#P( 80)
+	syscall
+	addi $a0, $a0, 21 	#e (101)
+	syscall
+	addi $a0, $a0, 14	#s (115)
+	syscall 
+	addi $a0, $a0, 0 	#s (115)
+	syscall
+	addi $a0, $a0, 2	#u (117)
+	syscall
+	
 	
 
 	
