@@ -48,6 +48,7 @@
 	addi $a0, $a0, 5	#j (106)
 	syscall
 	addi $a0, $a0, 11	#u (117)
+	syscall
 	
 	
 
