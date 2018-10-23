@@ -27,7 +27,10 @@
 	syscall
 	addi $a0, $a0, 2	#u (117)
 	syscall
-	
+	sub $a0, $a0, 73	#,(44)
+	syscall
+	sub $a0, $a0, 12	#space (32)
+	syscall
 	
 
 	
