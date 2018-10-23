@@ -31,6 +31,24 @@
 	syscall
 	sub $a0, $a0, 12	#space (32)
 	syscall
+	addi $a0, $a0, 52 	#T (84)
+	syscall
+	addi $a0, $a0, 27	#o (111)
+	syscall
+	addi $a0, $a0, 3	#r (114)
+	syscall
+	sub $a0, $a0, 9		#i (105)
+	syscall
+	addi $a0, $a0, 10 	#s (115)
+	syscall
+	sub $a0, $a0, 11 	#h (104)
+	syscall 
+	sub $a0, $a0, 3		#e (101)
+	syscall
+	addi $a0, $a0, 5	#j (106)
+	syscall
+	addi $a0, $a0, 11	#u (117)
+	
 	
 
 	
